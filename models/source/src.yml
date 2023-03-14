@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: my_new_project
+    database: dh
+    schema: public
+    tables:
+      - name: raw_customers
+      - name: raw_orders
